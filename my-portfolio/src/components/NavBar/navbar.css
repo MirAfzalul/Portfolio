@@ -30,7 +30,7 @@
     border-bottom: 2px solid red;
 }
 .desktopMenuBtn{
-    background: white;
+    background: rgb(30, 30, 30  );
     color: black;
     border: none;
     display: flex;
