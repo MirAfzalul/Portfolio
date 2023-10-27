@@ -11,4 +11,6 @@ body{
     color: white;
     overflow: hidden;
     overflow-y: scroll;
+    /* background: radial-gradient(ellipse at bottom, #1b2735, #090a0f); */
+    background: rgb(30, 30, 30);
 }

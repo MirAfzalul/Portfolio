@@ -1,5 +1,7 @@
 .navbar{
     height: 5rem;
+    background:rgb(30, 30, 30  );
+    /* background: radial-gradient(ellipse at bottom, #1b2735, #090a0f); */
     width:100vw;
     max-width: 75rem;
     margin: 0 auto;
