@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <section id='skills'>
         <span className='skillTitle'>What I do</span>
-        <span className='skillDesc'>write a paragraph</span>
+        <span className='skillDesc'>As a web developer, I design and create interactive websites that engage users and deliver a seamless online experience. I also ensure websites are responsive, secure, and optimized for performance.</span>
         <div className='skillBars'>
             <div className='skillBar'>
                 <img src={UIDesgin} alt='uiDesgin' className='skillBarImg'/>
