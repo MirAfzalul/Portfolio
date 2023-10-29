@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Contact/contact.css'
 import LinkedIn from '../../assets/linkedin.png'
 
 
 const Contact = () => {
+  
   return (
     <div id='contactPage'>
         <h1 id='contactMePageTitle'>Contact Me</h1>
@@ -19,6 +20,8 @@ const Contact = () => {
         </form>
 
     </div>
+    
+    
   )
 }
 
