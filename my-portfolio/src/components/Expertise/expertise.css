@@ -1,0 +1,80 @@
+#expertise{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+        /* display: flex;
+        flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+#expertise:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.progressBar {
+    float: right;
+  width: 50%;
+  padding: 10px;
+}
+.tools{
+    float: left;
+}
+.chart {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 20px;
+    width: 300px;
+}
+.chart span {
+    /* You can modify the value below to change the distance between the percentage number and the bar */
+    margin-left: 5px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.jsBar, .reactBar {
+    /* You can modify the total time used for the animation here */
+    
+    /* 
+    Add a little spice by having a shadow below the bar.
+    Feel free to comment out this line below to have an even LITE version :D 
+    */
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: #fff;
+    height: 10px;
+    width: 0;
+}
+.jsBar{
+    animation: jsLoad 3s normal forwards;
+}
+
+.reactBar{
+    animation: reactLoad 3s normal forwards;
+}
+@keyframes reactLoad {
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 60%;
+    }
+}
+@keyframes jsLoad {
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 90%;
+    }
+}
