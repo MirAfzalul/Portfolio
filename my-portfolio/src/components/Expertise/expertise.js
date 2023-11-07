@@ -1,34 +1,47 @@
 import React from 'react'
 import './expertise.css'
+import reactImg from'../../assets/react.png'
+import vsCodeImg from'../../assets/visual-studio.png'
+import gitImg from '../../assets/git.png'
+import bootstrapImg from '../../assets/bootstrap.png'
+import dockerImg from '../../assets/docker.png'
 const Expertise = () => {
     
   return (
+    
     <div id='expertise'>
-        <h1>Skills</h1>
-    <section class='tools'>
-        <h2>Tools I Use</h2>
+        <h1 className='mainTitle'>Skills</h1>
+    <section className='tools'>
+        <h3 className='toolTitle'>Technologies</h3>
+        
+        <img src={reactImg} alt='reactimg'className='toolImage'/>
+        <img src={vsCodeImg} alt='reactimg'className='toolImage'/>
+        <img src={gitImg} alt='reactimg'className='toolImage'/>
+        <img src={bootstrapImg} alt='bootsrapimg' className='toolImage'/>
+        <img src={dockerImg} alt='dockerimg' className='toolImage'/>
     </section>
     
-    <section class='progressBar'>
+    <section className='progressBar'>
+        <h3 className='barsTitle'>Programming Proficiency Bar</h3>
         <p>JavaScript</p>
-        <div class="chart">
-        <div class="jsBar"></div>
-        <span id="value1">68</span>
+        <div className="chart">
+        <div className="jsBar"></div>
+        <span id="value1">70%</span>
         </div>
     <p>React</p>
-        <div class="chart">
-        <div class="reactBar"></div>
-        <span id="value1">68</span>
+        <div className="chart">
+        <div className="reactBar"></div>
+        <span id="value1">60%</span>
         </div>
     <p>SQL</p>
-        <div class="chart">
-        <div class="jsBar"></div>
-        <span id="value1">68</span>
+        <div className="chart">
+        <div class="sqlBar"></div>
+        <span id="value1">55%</span>
         </div>
-    <p>C++</p>
-        <div class="chart">
-        <div class="jsBar"></div>
-        <span id="value1">68</span>
+    <p>Html/CSS</p>
+        <div className="chart">
+        <div className="htmlCss"></div>
+        <span id="value1">75%</span>
         </div>
     </section>
         

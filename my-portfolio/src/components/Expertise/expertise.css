@@ -2,25 +2,44 @@
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
-        /* display: flex;
-        flex-direction: column; */
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+.mainTitle{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    padding-bottom:3rem ;
 }
-#expertise:after{
-    content: "";
-    display: table;
-    clear: both;
+.toolImage{
+    float: left;
+    height: 4rem;
+    padding: .5rem;
+    margin-top: 4rem;
+      
 }
-.progressBar {
-    float: right;
-  width: 50%;
-  padding: 10px;
+.toolTitle{
+    
 }
+
 .tools{
     float: left;
+    width: 50%;
+    display: flex;
+    
 }
+.barsTitle{
+    padding-bottom: 3rem;
+    
+}
+.progressBar { 
+    float: right;
+  width: 50%;
+  padding-left: 10rem;
+  
+}
+
 .chart {
     background: rgba(255, 255, 255, 0.1);
     justify-content: flex-start;
@@ -39,7 +58,7 @@
     font-weight: bolder;
 }
 
-.jsBar, .reactBar {
+.jsBar, .reactBar, .sqlBar, .htmlCss {
     /* You can modify the total time used for the animation here */
     
     /* 
@@ -56,7 +75,15 @@
 .jsBar{
     animation: jsLoad 3s normal forwards;
 }
-
+@keyframes jsLoad {
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 70%;
+    }
+}
 .reactBar{
     animation: reactLoad 3s normal forwards;
 }
@@ -69,12 +96,30 @@
         width: 60%;
     }
 }
-@keyframes jsLoad {
+.sqlBar{
+    animation: sqlLoad 3s normal forwards;
+}
+@keyframes sqlLoad {
     0% {
         width: 0;
     }
     100% {
         /* You need to change the percentage below to match the value in the corresponding <span> */
-        width: 90%;
+        width: 50%;
     }
+
 }
+.htmlCss{
+    animation: htmlCssLoad 3s normal forwards;
+}
+@keyframes htmlCssLoad {
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 75%;
+    }
+
+}
+
