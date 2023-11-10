@@ -8,7 +8,10 @@ const Navbar = () => {
   const[showMenu, setShowmenu]=useState(false);
   return (
     <nav className='navbar'>
-        <img src={logo} alt='Logo' className='logo'/>
+      <Link activeClass='active' to ='intro' spy={true} smooth={true} offset={-100} duration={500}  onClick={()=>setShowmenu(false)}>
+      <img src={logo} alt='Logo' className='logo'  />
+      </Link>
+        
         <div className='desktopMenu'>
             <Link activeClass='active' to ='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem' onClick={()=>setShowmenu(false)} >Home</Link>
             <Link  activeClass='active' to ='skills' spy={true} smooth={true} offset={-95} duration={500} className='desktopMenuListItem' onClick={()=>setShowmenu(false)}>About</Link>

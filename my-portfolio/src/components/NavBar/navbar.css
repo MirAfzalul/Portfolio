@@ -20,6 +20,9 @@
     width: 4rem;
 
 }
+.logo:hover{
+    cursor: pointer;
+}
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
