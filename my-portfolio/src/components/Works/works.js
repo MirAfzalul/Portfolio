@@ -9,6 +9,7 @@ const Works = () => {
             <span className='workDesc'>Elevating ideas into immersive digital realities – explore my diverse portfolio of innovative web projects.</span>
             <div className='worksImgs'>
                 <img src={commingSoon} alt='' className='workImg'/>
+                <button className='portBtn'>Demo</button>
                 <img src={commingSoon} alt='' className='workImg'/>
                 <img src={commingSoon} alt='' className='workImg'/>
                 <img src={commingSoon} alt='' className='workImg'/>

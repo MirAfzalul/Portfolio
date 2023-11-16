@@ -35,6 +35,17 @@
     height: 20rem;
     margin: 0.5rem;
 }
+.workImg:hover{
+    opacity: .3 ;
+    transition:opacity .5s ease;
+
+}
+.portBtn{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
 .workBtn{
     margin: 3rem 0;
     padding: 0.5rem 2.5rem;
