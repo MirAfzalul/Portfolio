@@ -23,12 +23,12 @@ const Navbar = () => {
             <img src={night}alt='' className='desktopMenuImg'/>
             
         </button>
-        <img src={burgerMenu} alt='Logo' className='moMenu'/>
+        <img src={burgerMenu} alt='Logo' className='moMenu' onClick={()=>setShowmenu(!showMenu)}/>
         <div className='navMenu' style={{display: showMenu?'flex':'none'}}>
             <Link activeClass='active' to ='intro' spy={true} smooth={true} offset={-100} duration={500} className='ListItem' onClick={()=>setShowmenu(false)}>Home</Link>
-            <Link  activeClass='active' to ='skills' spy={true} smooth={true} offset={-100} duration={500} className='ListItem' onClick={()=>setShowmenu(false)}> About</Link>
-            <Link  activeClass='active' to ='works' spy={true} smooth={true} offset={-100} duration={500} className='ListItem' onClick={()=>setShowmenu(false)}>Portfolio</Link>
-            <Link activeClass='active' to ='expertise' spy={true} smooth={true} offset={-100} duration={500} className='ListItem' onClick={()=>setShowmenu(false)}>Skills</Link>
+            <Link  activeClass='active' to ='skills' spy={true} smooth={true} offset={-95} duration={500} className='ListItem' onClick={()=>setShowmenu(false)}> About</Link>
+            <Link  activeClass='active' to ='works' spy={true} smooth={true} offset={-90} duration={500} className='ListItem' onClick={()=>setShowmenu(false)}>Portfolio</Link>
+            <Link activeClass='active' to ='expertise' spy={true} smooth={true} offset={-90} duration={500} className='ListItem' onClick={()=>setShowmenu(false)}>Skills</Link>
         </div>
     </nav>
   )

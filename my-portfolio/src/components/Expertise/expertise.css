@@ -1,5 +1,6 @@
 #expertise{
     overflow: hidden;
+    min-height: calc(100vh-4rem);
     width: 100vw;
     max-width: 65rem;
     margin: 0 auto;
@@ -22,13 +23,16 @@
       
 }
 .toolTitle{
-    
+    padding-bottom: 0rem;
 }
+
 
 .tools{
     float: left;
     width: 50%;
-    display: flex;
+    /* display: flex; */
+    padding-left: 2rem;
+    
     
 }
 .barsTitle{
@@ -125,3 +129,26 @@
 
 }
 
+@media screen and (max-width:964px) {
+    #expertise{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        /* margin: auto; */
+    }
+   .tools{
+    padding-bottom: 2rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    width: auto;
+    padding-bottom: 4rem;
+    
+   }
+   .progressBar{
+    /* display: flex; */
+    padding-left: 0%;
+    width: auto;
+   }
+    
+}
