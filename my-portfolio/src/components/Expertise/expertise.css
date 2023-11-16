@@ -3,7 +3,8 @@
     width: 100vw;
     max-width: 65rem;
     margin: 0 auto;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
+    min-height: 100vh;
 }
 .mainTitle{
     display: flex;
@@ -11,6 +12,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom:3rem ;
+    font-size: 3rem;
 }
 .toolImage{
     float: left;

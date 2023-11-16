@@ -2,20 +2,15 @@
     height: calc(100vh-4rem);
     width: 100vw;
     max-width: 75rem;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
     justify-content: center;
     align-items: center;
-    right: 2rem;
-    padding-bottom: 2rem;
-    
+    padding-bottom: 2rem;   
     
 }
 
 .bg{
     object-fit: cover;
-   height: 30vh;
+   height: 40vh;
    justify-content: center;
    
    
