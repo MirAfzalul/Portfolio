@@ -85,8 +85,12 @@
     border-radius: 5px;
     text-align: center;
 }
+.portBtn{
+  display: none;
+}
 
 .workBtn{
+  display: none;
     margin: 3rem 0;
     padding: 0.5rem 2.5rem;
     border: none;
