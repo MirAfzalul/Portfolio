@@ -19,25 +19,19 @@
     float: left;
     height: 4rem;
     padding: .5rem;
-    margin-top: 4rem;
-      
+    margin-top: 4rem; 
 }
 .toolTitle{
     padding-bottom: 0rem;
 }
-
-
 .tools{
     float: left;
     width: 50%;
     /* display: flex; */
     padding-left: 2rem;
-    
-    
 }
 .barsTitle{
-    padding-bottom: 3rem;
-    
+    padding-bottom: 3rem;   
 }
 .progressBar { 
     float: right;
@@ -45,7 +39,6 @@
   padding-left: 10rem;
   
 }
-
 .chart {
     background: rgba(255, 255, 255, 0.1);
     justify-content: flex-start;
@@ -63,16 +56,13 @@
     color: #fff;
     font-weight: bolder;
 }
-
 .jsBar, .reactBar, .sqlBar, .htmlCss {
     /* You can modify the total time used for the animation here */
-    
     /* 
     Add a little spice by having a shadow below the bar.
     Feel free to comment out this line below to have an even LITE version :D 
     */
     box-shadow: 0 10px 40px -10px #fff;
-
     border-radius: 100px;
     background: #fff;
     height: 10px;
