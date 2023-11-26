@@ -17,9 +17,13 @@
 }
 .toolImage{
     float: left;
-    height: 4rem;
+    height: 5rem;
     padding: .5rem;
     margin-top: 4rem; 
+    filter: grayscale(100);
+}
+.toolImage:hover{
+    filter: grayscale(0);
 }
 .toolTitle{
     padding-bottom: 0rem;

@@ -1,13 +1,40 @@
+
+
 #intro{
     height: calc(100vh-4rem);
     width: 100vw;
     max-width: 75rem;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2rem;   
+    /* padding-bottom: 2rem;    */
+    -webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     
 }
-
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
 .bg{
     object-fit: cover;
    height: 40vh;
@@ -34,8 +61,8 @@
 }
 .introName{
     color: red;
-    -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 5s infinite both;
-	        animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 5s infinite both;
+    -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) .5s infinite both;
+	        animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) .5s infinite both;
 }
 @-webkit-keyframes tracking-in-expand {
     0% {
@@ -67,13 +94,17 @@
     font-weight: 300;
     letter-spacing: 1px;
 }
+
 .btn{
-    background: white;
-    margin: 1rem 0;
+    background: none;
+    font-size: 1rem;
+    color: white;
+    margin: 2rem 0;
     padding: 0.75rem 1.5rem;
     border:none ;
     border-radius: 2rem;
     transition: 0.2s all;   
+    border: white solid;
 }
 .btn:active { 
     transform: scale(0.98); 
@@ -81,20 +112,93 @@
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
     /* Lowering the shadow */ 
 }
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
 .btn:hover{
     cursor: pointer;
     color: red;
+    border:red solid;
     
     box-shadow: 0px 5px 15px rgba(214, 0, 28, 0.8);
+    /* -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both; */
+          
+            -webkit-animation: jello-horizontal 0.9s both;
+                    animation: jello-horizontal 0.9s both;
+          
 }
 .btnImg{
     object-fit: cover;
     margin: 0 0.25rem;
     height: 1rem;
+    
 }
 .arrow{
     height: 1.5vh;
     padding-right: .75rem;
+    filter: grayscale(0);
+}
+.arrow:hover{
+  filter: grayscale(0);
 }
 @media screen and (max-width:900px) 
 {

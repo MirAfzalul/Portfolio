@@ -4,7 +4,9 @@ import reactImg from'../../assets/react.png'
 import vsCodeImg from'../../assets/visual-studio.png'
 import gitImg from '../../assets/git.png'
 import bootstrapImg from '../../assets/bootstrap.png'
-import dockerImg from '../../assets/docker.png'
+import nodeJs from '../../assets/nodejs.png'
+import mongoDB from '../../assets/mongoDb.png'
+import fireBase from '../../assets/1firebase.png'
 const Expertise = () => {
     
   return (
@@ -15,14 +17,20 @@ const Expertise = () => {
         <h3 className='toolTitle'>Technologies</h3>
         
         <img src={reactImg} alt='reactimg'className='toolImage'/>
+         <img src={nodeJs} alt='dockerimg' className='toolImage'/>
+        <img src={mongoDB} alt='dockerimg' className='toolImage'/>
+        <img src={fireBase} alt='dockerimg' className='toolImage'/>
+        <img src={bootstrapImg} alt='bootsrapimg' className='toolImage'/>
         <img src={vsCodeImg} alt='reactimg'className='toolImage'/>
         <img src={gitImg} alt='reactimg'className='toolImage'/>
-        <img src={bootstrapImg} alt='bootsrapimg' className='toolImage'/>
-        <img src={dockerImg} alt='dockerimg' className='toolImage'/>
+        
+       
+        
+
     </section>
     
     <section className='progressBar'>
-        <h3 className='barsTitle'>Programming Proficiency Bar</h3>
+        <h3 className='barsTitle'>Programming Bars</h3>
         <p>JavaScript</p>
         <div className="chart">
         <div className="jsBar"></div>
