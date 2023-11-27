@@ -69,8 +69,7 @@
   .project1{
     position: relative;
   }
-.project1 .portBtn{
-    /* display: none; */
+.project1 .demo {
     position: absolute;
     top: 50%;
     left: 35%;
@@ -85,10 +84,39 @@
     border-radius: 5px;
     text-align: center;
 }
-.portBtn{
+.details{
   display: none;
+  position: absolute;
+    top: 50%;
+    right: 12%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
 }
-
+.demo {
+  display: none;
+  
+}
+.project1:hover{
+  .demo {
+    display: block;
+  }
+  .details{
+    display: block;
+  }
+}
+.demo:hover{
+  project1{
+    filter: blur(20);
+  }
+}
 .workBtn{
   display: none;
     margin: 3rem 0;
@@ -98,10 +126,18 @@
     background: white;
     font-size: 1rem;
 }
+
 @media screen and (max-width:585px) 
 {
     .workImg{
         height: 48vw;
     }
     
+}
+@media screen and (max-width:973) 
+{
+  .details{
+    color: red;
+  }
+  
 }

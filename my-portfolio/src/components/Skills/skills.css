@@ -60,6 +60,7 @@
     .skillBarText>P{
         font-size: 3vw;
         display: flex;
+        
     }
     .skillBarImg{
         height: 1.25rem;

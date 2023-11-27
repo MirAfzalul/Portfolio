@@ -61,8 +61,8 @@
 }
 .introName{
     color: red;
-    -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) .5s infinite both;
-	        animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) .5s infinite both;
+    -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.2s infinite both;
+	        animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.2s infinite both;
 }
 @-webkit-keyframes tracking-in-expand {
     0% {
@@ -209,10 +209,18 @@
     }    
     .introContent{
         padding-top: 0% ;
-
         justify-content: flex-start;
         
+        
     }
+    .introName{
+      font-size: 2;
+    }
+    #intro{
+      height: 75vh;
+    }
+    
+
 }
 
 

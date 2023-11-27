@@ -6,18 +6,49 @@ const Works = () => {
   return (
         <section id='works'>
             <h2 className='worksTitle'>My Portfolio</h2>
-            <span className='workDesc'>Elevating ideas into immersive digital realities – explore my diverse portfolio of innovative web projects.</span>
+            <span className='workDesc'>Elevating ideas into immersive digital realities - explore my diverse portfolio of innovative web projects.</span>
             <div className='worksImgs'>
               <div className='project1'>
                 <img src={commingSoon} alt='' className='workImg'/>
-                <button className='portBtn'>Demo</button>
+                <button className='demo'>Demo</button>
+                <button className='details'>Details</button>
               </div>
+                <div className='project1'>
+                <img src={commingSoon} alt='' className='workImg'/>
+                <button className='demo'>Demo</button>
+                <button className='details'>Details</button>
+                </div>
+                <div className='project1'>
+                    <img src={commingSoon} alt='' className='workImg'/>
+                <button className='demo'>Demo</button>
+                <button className='details'>Details</button>
+                </div>
+                <div className='project1'>
+                <img src={commingSoon} alt='' className='workImg'/>
+                <button className='demo'>Demo</button>
+                <button className='details'>Details</button>
+                </div>
+                <div className='project1'>
+                  <img src={commingSoon} alt='' className='workImg'/>
+                <button className='demo'>Demo</button>
+                <button className='details'>Details</button>
+                </div>
+                <div className='project1'>
+                  <img src={commingSoon} alt='' className='workImg'/>
+                <button className='demo'>Demo</button>
+                <button className='details'>Details</button>
+                </div>
                 
-                <img src={commingSoon} alt='' className='workImg'/>
-                <img src={commingSoon} alt='' className='workImg'/>
-                <img src={commingSoon} alt='' className='workImg'/>
-                <img src={commingSoon} alt='' className='workImg'/>
-                <img src={commingSoon} alt='' className='workImg'/>
+                {/* <div className='project1'>
+                  <img src={commingSoon} alt='' className='workImg'/>
+                <button className='demo'>Demo</button>
+                <button className='details'>Details</button>
+                </div> */}
+                
+                
+               
+               
+                
             </div>
             <button className='workBtn'>See more</button>
         </section>

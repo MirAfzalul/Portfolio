@@ -7,6 +7,7 @@ import bootstrapImg from '../../assets/bootstrap.png'
 import nodeJs from '../../assets/nodejs.png'
 import mongoDB from '../../assets/mongoDb.png'
 import fireBase from '../../assets/1firebase.png'
+import tailWindCss from '../../assets/tailwindcss_logo_icon_170649.png'
 const Expertise = () => {
     
   return (
@@ -23,6 +24,7 @@ const Expertise = () => {
         <img src={bootstrapImg} alt='bootsrapimg' className='toolImage'/>
         <img src={vsCodeImg} alt='reactimg'className='toolImage'/>
         <img src={gitImg} alt='reactimg'className='toolImage'/>
+        <img src={tailWindCss} alt='reactimg'className='toolImage'/>
         
        
         
