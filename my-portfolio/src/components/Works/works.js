@@ -10,33 +10,33 @@ const Works = () => {
             <div className='worksImgs'>
               <div className='project1'>
                 <img src={commingSoon} alt='' className='workImg'/>
-                <button className='demo'>Demo</button>
-                <button className='details'>Details</button>
+                <button className='demo'>Live</button>
+                <button className='details'>Code</button>
               </div>
                 <div className='project1'>
                 <img src={commingSoon} alt='' className='workImg'/>
-                <button className='demo'>Demo</button>
-                <button className='details'>Details</button>
+                <button className='demo'>Live</button>
+                <button className='details'>Code</button>
                 </div>
                 <div className='project1'>
                     <img src={commingSoon} alt='' className='workImg'/>
-                <button className='demo'>Demo</button>
-                <button className='details'>Details</button>
+                <button className='demo'>Live</button>
+                <button className='details'>Code</button>
                 </div>
                 <div className='project1'>
                 <img src={commingSoon} alt='' className='workImg'/>
-                <button className='demo'>Demo</button>
-                <button className='details'>Details</button>
+                <button className='demo'>Live</button>
+                <button className='details'>Code</button>
                 </div>
                 <div className='project1'>
                   <img src={commingSoon} alt='' className='workImg'/>
-                <button className='demo'>Demo</button>
-                <button className='details'>Details</button>
+                <button className='demo'>Live</button>
+                <button className='details'>Code</button>
                 </div>
                 <div className='project1'>
                   <img src={commingSoon} alt='' className='workImg'/>
-                <button className='demo'>Demo</button>
-                <button className='details'>Details</button>
+                <button className='demo'>Live</button>
+                <button className='details'>Code</button>
                 </div>
                 
                 {/* <div className='project1'>

@@ -134,10 +134,22 @@
     }
     
 }
-@media screen and (max-width:973) 
+@media screen and (max-width:740px) 
 {
-  .details{
-    color: red;
+  
+  .project1:hover{
+    .demo{
+      position: relative;
+      left: 3.5rem;
+      font-size: 14px;
+    }
+    .details{
+      position:relative;
+      left: 9rem;
+      top: -2.3rem;
+      font-size: 14px;
+    }
+    
   }
   
 }

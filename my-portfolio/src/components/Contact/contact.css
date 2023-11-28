@@ -9,7 +9,12 @@
     align-items: center;
     justify-content: center;
 }
-
+#contactMePageTitle{
+    font-size: 3rem;    
+    font-weight: 600;
+    padding-top: .5rem;
+    margin-bottom: 1.5rem;
+}
 .contactDesc{
     padding: 1rem;
     font-size: medium;
@@ -38,14 +43,18 @@
     background: rgb(40,40,40);
 
 }
+.msg{
+    resize: none;
+}
 
 .submitBtn{
     background: white;
+    color: black;
     padding:0.75rem 3.5rem ;
     border: none;
     margin: 2rem;
-    border-radius: 0.5rem;
-    transition: 0.2s all;     
+    border-radius: 1.5rem;
+    transition: 0.4s all;     
 }
 .submitBtn:hover{
     cursor: pointer;
