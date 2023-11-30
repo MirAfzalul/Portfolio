@@ -23,7 +23,7 @@ const Navbar = () => {
           
             {/* <img src={night}alt='' className='desktopMenuImg'/>
              */}
-              <Link activeClass='active' to ='contactPage' spy={true} smooth={true} offset={-89} duration={500} onClick={()=>setShowmenu(false)} className='desktopMenuListItem'>Contact</Link>
+              <Link activeClass='active' to ='contactPage' spy={true} smooth={true} offset={-89} duration={500} onClick={()=>setShowmenu(false)} className='desktopMenuListItem_contact'>Contact</Link>
             
         </button>
         <img src={burgerMenu} alt='Logo' className='moMenu' onClick={()=>setShowmenu(!showMenu)}/>

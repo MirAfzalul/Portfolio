@@ -2,6 +2,8 @@ import React, { useRef , useState } from 'react'
 import emailjs from '@emailjs/browser';
 import '../Contact/contact.css'
 import LinkedIn from '../../assets/linkedin.png'
+import {toast} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = () => {
@@ -10,6 +12,7 @@ const Contact = () => {
   const [email,setEmail]=useState("");
   const[text,setText]=useState("");
 const form = useRef();
+
   const handleSubmit = (e)=>{
     e.preventDefault();
     setName("");
@@ -20,7 +23,13 @@ const form = useRef();
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
-        });
+
+        }        
+        );
+        toast.success('Message was sent successfully!', {
+          position: toast.POSITION.TOP_CENTER,
+          autoClose: 3000, // Close the notification after 3 seconds
+        });  
   
   }
 
