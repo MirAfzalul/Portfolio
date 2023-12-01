@@ -42,7 +42,7 @@ const form = useRef();
 
         <form className='contactForm' ref={form} onSubmit={handleSubmit}>
             <input type='text' className='name' placeholder='Your Name*'name='from_name' value={name} onChange={(e)=>setName(e.target.value)} required/>
-            <input type='text' className='email' placeholder='Your Email*' name='from_email'value={email} onChange={(e)=>setEmail(e.target.value)} required/>
+            <input type='email' className='email' placeholder='Your Email*' name='from_email'value={email} onChange={(e)=>setEmail(e.target.value)} required/>
             <textarea className='msg' name='message' rows='5' placeholder='Your Message*'value={text} onChange={(e)=>setText(e.target.value)} required></textarea>
             <button type='submit' value='Send' className='submitBtn'>Submit</button>
             <div className='Links'>
