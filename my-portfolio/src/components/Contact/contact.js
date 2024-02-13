@@ -1,9 +1,10 @@
-import React, { useRef , useState } from 'react'
+import React, { useRef , useState, } from 'react'
 import emailjs from '@emailjs/browser';
 import '../Contact/contact.css'
 import LinkedIn from '../../assets/linkedin.png'
 import {toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const Contact = () => {
@@ -46,7 +47,10 @@ const form = useRef();
             <textarea className='msg' name='message' rows='5' placeholder='Your Message*'value={text} onChange={(e)=>setText(e.target.value)} required></textarea>
             <button type='submit' value='Send' className='submitBtn'>Submit</button>
             <div className='Links'>
-                <img src={LinkedIn} alt='linkedIn' className='link'/>
+             
+              <img src={LinkedIn} alt='linkedIn' className='link' onClick={()=>window.open('https://www.linkedin.com/in/mir-afzalul-bashar-36b52018b')}/>
+              
+                
             </div>
         </form>
 
