@@ -132,9 +132,17 @@
     .workImg{
         height: 48vw;
     }
+    .project1:hover{
+      .demo{
+        left: 3rem;
+      }
+      .details{
+        right: -.8rem;
+      }
+    }
     
 }
-@media screen and (max-width:740px) 
+/* @media screen and (max-width:1024px) 
 {
   
   .project1:hover{
@@ -152,4 +160,4 @@
     
   }
   
-}
+} */
