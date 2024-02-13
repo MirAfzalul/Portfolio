@@ -80,6 +80,9 @@
     height: 1.8rem;
 
 }
+.moMenu:hover{
+    cursor: pointer;
+}
 .navMenu{
     position: absolute;
     top: 4rem;
@@ -100,6 +103,7 @@
     margin: 0.25rem;
     background: rgb(30, 30, 30  );
 }
+
 @media screen and (max-width:720px) {
     .moMenu{
         display: flex;
