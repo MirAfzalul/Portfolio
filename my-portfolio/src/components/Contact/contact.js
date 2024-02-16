@@ -2,13 +2,11 @@ import React, { useRef , useState, } from 'react'
 import emailjs from '@emailjs/browser';
 import '../Contact/contact.css'
 import LinkedIn from '../../assets/linkedin.png'
+import Github from '../../assets/github.png'
 import {toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
-
-
 const Contact = () => {
-
   const [name,setName]=useState("");
   const [email,setEmail]=useState("");
   const[text,setText]=useState("");
@@ -33,9 +31,6 @@ const form = useRef();
         });  
   
   }
-
-  
-
   return (
     <div id='contactPage'>
         <h1 id='contactMePageTitle'>Contact Me</h1>
@@ -46,10 +41,10 @@ const form = useRef();
             <input type='email' className='email' placeholder='Your Email*' name='from_email'value={email} onChange={(e)=>setEmail(e.target.value)} required/>
             <textarea className='msg' name='message' rows='5' placeholder='Your Message*'value={text} onChange={(e)=>setText(e.target.value)} required></textarea>
             <button type='submit' value='Send' className='submitBtn'>Submit</button>
-            <div className='Links'>
+            <div className='links'>
              
               <img src={LinkedIn} alt='linkedIn' className='link' onClick={()=>window.open('https://www.linkedin.com/in/mir-afzalul-bashar-36b52018b')}/>
-              
+              <img src={Github} alt='linkedIn' className='git' onClick={()=>window.open('https://github.com/MirAfzalul')}/>
                 
             </div>
         </form>
