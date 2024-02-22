@@ -8,16 +8,16 @@ const Works = () => {
             <h2 className='worksTitle'>My Portfolio</h2>
             <span className='workDesc'>Elevating ideas into immersive digital realities - explore my diverse portfolio of innovative web projects.</span>
             <div className='worksImgs'>
-              <div className='project1'>
+              {/* <div className='project1'>
                 <img src={commingSoon} alt='' className='workImg'/>
                 <button className='demo'>Live</button>
                 <button className='details'>Code</button>
-              </div>
-                <div className='project1'>
+              </div> */}
+                {/* <div className='project1'>
                 <img src={commingSoon} alt='' className='workImg'/>
                 <button className='demo'>Live</button>
                 <button className='details'>Code</button>
-                </div>
+                </div> */}
                 <div className='project1'>
                     <img src={commingSoon} alt='' className='workImg'/>
                 <button className='demo'>Live</button>

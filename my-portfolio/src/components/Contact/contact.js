@@ -6,13 +6,13 @@ import Github from '../../assets/github.png'
 import {toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
-const Contact = () => {
+  const Contact = () => {
   const [name,setName]=useState("");
   const [email,setEmail]=useState("");
   const[text,setText]=useState("");
-const form = useRef();
+  const form = useRef();
 
-  const handleSubmit = (e)=>{
+ const handleSubmit = (e)=>{
     e.preventDefault();
     setName("");
     setEmail("");
