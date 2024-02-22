@@ -1,5 +1,5 @@
 .navbar{
-    height: 5rem;
+    height: 4rem;
     background:rgb(30, 30, 30  );
     /* background: radial-gradient(ellipse at bottom, #1b2735, #090a0f); */
     width:100vw;
@@ -31,28 +31,41 @@
 
 }
 .desktopMenuListItem:hover{
-    color: red;
+    color: #FF3600 ;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #FF3600 ;
+    
 }
 .desktopMenuListItem_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-top: solid;
+    border-bottom: solid; */
+    padding: .4rem;
+    /* border-radius: .5rem; */
+
     margin: 1rem;
     cursor: pointer;
+
 }
 .desktopMenuListItem_contact:hover{
     color: red;
-    
+    border-top: solid;
+    border-bottom: solid;
+    transform:translateY(2px) ;
 }
 .desktopMenuBtn{
     background: rgb(30, 30, 30  );
     color: white;
-    border:solid;
+    border:none;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3 .5rem;
+    
     border-radius: .5rem;
-    font-size: small;
+    font-size: smaller;
+    
     /* font-weight:bold; */
     
 
