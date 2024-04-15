@@ -37,6 +37,7 @@
     object-fit: cover;
     height: 20rem;
     margin: 0.5rem;
+    border-radius: 0.5rem;
 }
 .workImg:hover {
     
@@ -68,7 +69,9 @@
   
   .project1{
     position: relative;
+    
   }
+
 .project1 .demo {
     position: absolute;
     top: 50%;
@@ -83,7 +86,9 @@
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    
 }
+
 .details{
   display: none;
   position: absolute;
