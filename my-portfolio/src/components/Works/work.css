@@ -38,6 +38,7 @@
     height: 20rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
+    
 }
 .workImg:hover {
     
@@ -105,11 +106,18 @@
     border-radius: 5px;
     text-align: center;
 }
+.projectName{
+  display: none;
+}
+
 .demo {
   display: none;
   
 }
 .project1:hover{
+  .projectName{
+    display: block;
+  }
   .demo {
     display: block;
   }

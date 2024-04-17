@@ -31,6 +31,7 @@ const Works = () => {
                 </div>
                 <div className='project1'>
                   <img src={Project3} alt='' className='workImg'/>
+                  <p className='projectName'>Password Generator</p>
                 <button className='demo' onClick={()=>{window.open("https://mirafzalulbashar.com/project1/")}}>Live</button>
                 <button className='details' onClick={()=>{window.open("https://github.com/MirAfzalul/Merg-Password-Generator-and-QR-Generator")}}>Code</button>
                 </div>
