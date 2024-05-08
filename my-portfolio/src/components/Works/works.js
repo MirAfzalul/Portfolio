@@ -2,6 +2,7 @@ import React from 'react'
 import '../Works/work.css'
 import commingSoon from '../../assets/coming-soon.png';
 import Project3 from '../../assets/Project3.png'
+import quizApp from '../../assets/quizApp1.png'
 
 const Works = () => {
   return (
@@ -36,9 +37,10 @@ const Works = () => {
                 <button className='details' onClick={()=>{window.open("https://github.com/MirAfzalul/Merg-Password-Generator-and-QR-Generator")}}>Code</button>
                 </div>
                 <div className='project1'>
-                  <img src={commingSoon} alt='' className='workImg'/>
-                <button className='demo'>Live</button>
-                <button className='details'>Code</button>
+                  <img src={quizApp} alt='' className='workImg'/>
+                  <p className='projectName'>Quiz App</p>
+                <button className='demo'onClick={()=>{window.open("https://project2.mirafzalulbashar.com/")}}>Live</button>
+                <button className='details' onClick={()=>{window.open("https://github.com/MirAfzalul/QuizApp.git")}}>Code</button>
                 </div>
                 
                 {/* <div className='project1'>
