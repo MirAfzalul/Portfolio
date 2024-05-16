@@ -43,7 +43,7 @@ import 'react-toastify/dist/ReactToastify.css';
             <button type='submit' value='Send' className='submitBtn'>Submit</button>
             <div className='links'>
              
-              <img src={LinkedIn} alt='linkedIn' className='link' onClick={()=>window.open('https://www.linkedin.com/in/mir-afzalul-bashar-36b52018b')}/>
+              {/* <img src={LinkedIn} alt='linkedIn' className='link' onClick={()=>window.open('https://www.linkedin.com/in/mir-afzalul-bashar-36b52018b')}/> */}
               <img src={Github} alt='linkedIn' className='git' onClick={()=>window.open('https://github.com/MirAfzalul')}/>
                 
             </div>

@@ -3,7 +3,7 @@ import '../Footer/footer.css'
 const Footer = () => {
   return (
     <footer className='footer'>
-        copyright 2023
+      Copyright © 2024
     </footer>
 
   );
