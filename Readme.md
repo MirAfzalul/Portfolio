@@ -33,22 +33,22 @@ Brief description of the project, its purpose, and your role in it.
 
 Brief description of the project, its purpose, and your role in it.
 
-- **GitHub Repository:** [Project 1 Repository](https://github.com/MirAfzalul/Snake-Game.git)
-- **Live Demo:** [Project 1 Demo](https://snakegame.mirafzalulbashar.com/)
+- **GitHub Repository:** [Project 2 Repository](https://github.com/MirAfzalul/Snake-Game.git)
+- **Live Demo:** [snake Game](https://snakegame.mirafzalulbashar.com/)
 
 ### Project 3: Password and QR code Generator
 
 Brief description of the project, its purpose, and your role in it.
 
-- **GitHub Repository:** [Project 1 Repository](https://github.com/MirAfzalul/Merg-Password-Generator-and-QR-Generator)
-- **Live Demo:** [Project 1 Demo](https://mirafzalulbashar.com/project1/)
+- **GitHub Repository:** [Project 3 Repository](https://github.com/MirAfzalul/Merg-Password-Generator-and-QR-Generator)
+- **Live Demo:** [Password Generator](https://mirafzalulbashar.com/project1/)
 
 ### Project 4: Quiz App
 
 Brief description of the project, its purpose, and your role in it.
 
-- **GitHub Repository:** [Project 2 Repository](https://github.com/MirAfzalul/QuizApp.git)
-- **Live Demo:** [Project 2 Demo](https://project2.mirafzalulbashar.com/)
+- **GitHub Repository:** [Project 4 Repository](https://github.com/MirAfzalul/QuizApp.git)
+- **Live Demo:** [Quiz App](https://project2.mirafzalulbashar.com/)
 
 ## Education
 
