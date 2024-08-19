@@ -3,7 +3,7 @@ import '../Works/work.css'
 import commingSoon from '../../assets/coming-soon.png';
 import Project3 from '../../assets/Project3.png'
 import quizApp from '../../assets/quizApp1.png'
-
+import snakeGame from'../../assets/Snakegame.png'
 const Works = () => {
   return (
         <section id='works'>
@@ -26,9 +26,9 @@ const Works = () => {
                 <button className='details'>Code</button>
                 </div>
                 <div className='project1'>
-                <img src={commingSoon} alt='' className='workImg'/>
-                <button className='demo'>Live</button>
-                <button className='details'>Code</button>
+                <img src={snakeGame} alt='' className='workImg'/>
+                <button className='demo' onClick={()=>{window.open("https://snakegame.mirafzalulbashar.com/")}}>Live</button>
+                <button className='details'onClick={()=>{window.open("https://github.com/MirAfzalul/Snake-Game.git")}}>Code</button>
                 </div>
                 <div className='project1'>
                   <img src={Project3} alt='' className='workImg'/>
